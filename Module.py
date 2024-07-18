@@ -1,6 +1,6 @@
-import config as mx
+import package.subPackage1.config as mx
 import platform as plt
-from config import person1
+from package.subPackage1.config import person1
 
 print(mx.getData(2)) #4
 print(mx.person1['age']) #36

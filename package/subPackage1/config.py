@@ -1,3 +1,5 @@
+
+
 x = 0 
 
 person1 = {
@@ -7,4 +9,4 @@ person1 = {
 }
 
 def getData(q):
-    return q ** 2
+    return q ** 2 

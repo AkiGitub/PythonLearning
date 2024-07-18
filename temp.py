@@ -1,2 +1,6 @@
-a = '12.2'
-print(a.isdecimal())
+from pathlib import Path
+
+path = Path(r'D:\Pasco')
+
+for p in path.iterdir():
+    print(p)

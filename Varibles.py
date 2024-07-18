@@ -1,5 +1,5 @@
 import random
-import config,mod
+import package.subPackage1.config as config,mod
 
 from sys import getsizeof
 
