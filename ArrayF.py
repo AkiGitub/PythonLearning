@@ -1,6 +1,6 @@
 
 import array as arr
-
+#import
 #(must be b, B, u, h, H, i, I, l, L, q, Q, f or d)
 a = arr.array('i', [1, 2, 3])
 print(a)
