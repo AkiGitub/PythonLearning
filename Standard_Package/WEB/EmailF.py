@@ -12,7 +12,7 @@ mess.attach(MIMEText("Body"))
 with smtplib.SMTP(host="smtp.gmail.com",port=587) as smtp:
      smtp.ehlo()#hey i am client to want to send email
      smtp.starttls() #transport layer security to encrypt the message
-     smtp.login('akbarprogrammer@gmail.com',"akbar22105")
+     smtp.login('unitydeveloper3d2@gmail.com',"sckd phda awgo nlau")
                  
      smtp.send_message(mess)
      print('send...')

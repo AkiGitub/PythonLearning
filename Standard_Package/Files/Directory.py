@@ -63,7 +63,7 @@ target.write_text(path.read_text())
 #access to all fiels or folders------------------------------------------
 import os
 
-
+#current foler
 cwd = os.getcwd()
 #print(cwd)
 
@@ -79,3 +79,5 @@ print("==>",next(os.walk('.'))[1])
 
 #
 print("==>",next(os.walk(folder))[1])
+
+print( os.getcwd())

@@ -1,0 +1,55 @@
+#pip3 install requests
+#pip3 install --upgrade pip
+#pip3 list (2.20.1) = 2= major version, 20 = minoer ver , 1 = bug fixes
+#pip3 install requests==2.9.0 #specefic version
+#pip3 install requests==2.9.* latest compatible ver 
+#pip3 install requests==2.* latest compatible ver 
+#pip3 install requests~=2.9.0 latest compatible ver 
+#pip3 unisntal requests
+
+#two version============================================================
+#if we want to have two versions of the component
+#python3 -m venv env  #create virtual Env that work separetly
+#for activiate:D:\Learning Docs\EDX\Code\Lecture1\PythonLeaning\Standard_Package\ArgumentRun\env\Scripts\activate.bat
+# and now we install: pip3 install requests=2.9.* that is different from installed globally
+#deactivat: >deactivate
+
+#pipEnv Tools================================================================
+pip3 install pipenv
+pipenv install request #create two files: pipfile, pipfile.lock
+#location of Virtula ENV
+pipenv --venv
+#activate virtual env
+pipenv shell
+>python3 proje
+>exit #deactivate
+
+#VS code++++++++++++++++++++++
+give path of vittaul env to vscode 
+#pipenv --venv
+vscode> 
+
+#====================remove virtual env
+1- pipenv --venv
+2- find dir and del folder (rm -rf dir of virtual env)
+
+#by pipfile 
+pipenv install
+pipenv --venv
+
+#problem of above is is not exact version in the pipfile.lock file
+for sovle:
+pipenv install --ignore-pipfile
+===========================================================
+#show dependenvy
+pipEnv graph  #by this we see the problems for exapme diff ver ins installed
+#for sovle
+pienv uninstall requests
+#pipenv install requests 2.9.*
+
+#outdated packages
+pipenv update --outdated
+
+#pip update requests
+===========================================================
+
