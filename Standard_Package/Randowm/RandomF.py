@@ -12,7 +12,10 @@ print(",".join(random.choices("abcdefghkn",k=4)))# g,d,b,d
 #all letters
 print("".join(random.choices(string.ascii_letters + string.digits,k=4)))# Y2ck 
 
-#
+#random order list
 numbers = [1,2,3,4]
+random.shuffle(numbers)
+print(numbers) #[2, 4, 1, 3]
+
 
 
