@@ -114,3 +114,9 @@ print(getsizeof(values))
 
 values = [x * 2 for x in range(100000)] #800984
 print(getsizeof(values))
+
+#meney 2 float
+from  decimal import Decimal
+str1= '$123'
+men = Decimal(str1)
+print(men)
