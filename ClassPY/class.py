@@ -306,3 +306,19 @@ print(p.price) #10
 
 #inheritance
 
+class A:
+    def fun(self):
+        return '1+1'
+class B:
+    def fun(self):
+        return '2+2'
+
+class C(A,B):
+     pass
+
+
+c = C()
+print(c.fun())
+         
+
+

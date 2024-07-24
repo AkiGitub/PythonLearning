@@ -1,4 +1,7 @@
 
+import string
+
+
 for i in range(9):
     print('')
     for j in range(i):
@@ -29,4 +32,10 @@ for num in range(2,10):
 list2= ['Zogo: '+str(x) for x in range(5)]
 print(list2)#['Zogo: 0', 'Zogo: 1', 'Zogo: 2', 'Zogo: 3', 'Zogo: 4']
 
-    
+
+s="csdd50"
+print(s.isalpha())
+
+for char in s:
+    if char in string.punctuation:
+       print('ss')
