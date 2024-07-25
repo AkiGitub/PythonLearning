@@ -120,3 +120,4 @@ from  decimal import Decimal
 str1= '$123'
 men = Decimal(str1)
 print(men)
+

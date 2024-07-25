@@ -218,3 +218,21 @@ print(values) #[0, 1, 2, 3, 4]
 
 values = [*range(3),*"aki"]
 print(values) #[0, 1, 2, 'a', 'k', 'i']
+
+listMonths = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+]
+
+
+listMonths.index('Decembers')

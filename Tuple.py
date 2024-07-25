@@ -79,3 +79,8 @@ thistuple = (1,2) *3 #(1,2,1,2,1,2)
 #convert list to tuple
 points = tuple([1,2])
 letters = tuple("abcds") #('a','b', ..)
+
+x= 1
+y=4
+roundedValue = int((round(int(x) / int(y),2)) *100)
+print(roundedValue)
